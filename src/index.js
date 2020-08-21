@@ -1,2 +1,2 @@
 import "./styles/style.css";
-import "/";
+import "./js/module9.js";
