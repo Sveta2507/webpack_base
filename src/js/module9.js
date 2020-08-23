@@ -7,7 +7,7 @@ import menuItemTemplate from "../template/menu-item.hbs";
 // menuList.insertAdjacentHTML("afterbegin", item);
 
 // генерация меню
-const item = manuItemTemplate(menu);
+const item = menuItemTemplate(menu);
 const menuList = document.querySelector(".js-menu");
 menuList.insertAdjacentHTML("afterbegin", item);
 // переключатель тем
